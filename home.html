@@ -1,65 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="home.scss">
+  <link rel="stylesheet" href="home.css">
   <title>Document</title>
 </head>
+
 <body>
-  <nav class="nav">
-    <div class="nav__logo">
-      <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M0 34.0003H13.4588V24.499C13.4588 22.4853 15.0898 20.8543 17.1035 20.8543C19.1172 20.8543 20.7482 22.4853 20.7482 24.499V34.0003H33.9975V0C15.2211 0 0 15.2211 0 34.0003Z"
-          fill="#CDA274" />
-      </svg>
-      <h1 class="nav__name">Interno</h1>
+  <div class="body__container-top">
+    <nav class="nav">
+      <div class="nav__logo">
+        <svg class="nav__icon" width="34" height="34" viewBox="0 0 34 34" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M0 34.0003H13.4588V24.499C13.4588 22.4853 15.0898 20.8543 17.1035 20.8543C19.1172 20.8543 20.7482 22.4853 20.7482 24.499V34.0003H33.9975V0C15.2211 0 0 15.2211 0 34.0003Z"
+            fill="#CDA274" />
+        </svg>
+        <h1 class="nav__name">Interno</h1>
+      </div>
+      <ul class="nav__links">
+        <li class="nav__link">Home</li>
+        <li class="nav__link">Project</li>
+        <li class="nav__link">Blog</li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <div class="hero__info">
+        <h2 class="hero__heading">
+          Let Your Home Be Unique
+        </h2>
+        <p class="hero__description">
+          There are many variations of the passages of
+          lorem Ipsum fromavailable, majority.
+        </p>
+        <button class="hero__btn">
+          <h2 class="hero__btn-text">Get Started</h2>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+            <path d="M1 8.43542L14.7232 8.29857M9.61818 1.91138L16.1412 8.43436L9.48677 15.0887" stroke="#CDA274"
+              stroke-width="2" stroke-linecap="square" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
     </div>
-    <ul class="nav__links">
-      <li class="nav__link">Home</li>
-      <li class="nav__link">Project</li>
-      <li class="nav__link">Blog</li>
-    </ul>
-  </nav>
-  <div class="hero">
-    <div class="hero__info">
-      <h2 class="hero__heading">
-        Let Your Home Be Unique
-      </h2>
-      <p class="hero__description">
-        There are many variations of the passages of
-        lorem Ipsum fromavailable, majority.
-      </p>
-      <button class="hero__btn">Get Started</button>
-    </div>
+    <section class="projects">
+      <div class="projects__heading">
+        <h2 class="projects__title">Follow Our Projects</h2>
+        <p class="projects__desc">
+          It is a long established fact that a reader will be distracted by the of readable
+          content of page lookings at its
+          layouts points.
+        </p>
+      </div>
+      <div class="projects__container">
+
+        <div class="projects__project">
+          <img class="projects__image1" src="/assests/home/project1.jpg" alt="kitchen">
+          <div class="projects__wrapper">
+            <div class="projects__text">
+              <h3 class="projects__type">Modern Kitchen</h3>
+              <span class="projects__category">Decor / Artchitecture</span>
+            </div>
+            <svg class="projects__arrow" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70"
+              fill="none">
+              <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
+              <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <img class="projects__image2" src="/assests/home/project2.jpg" alt="kitchen">
+          <div class="projects__wrapper">
+            <div class="projects__text">
+              <h3 class="projects__type">Modern Kitchen</h3>
+              <span class="projects__category">Decor / Artchitecture</span>
+            </div>
+            <svg class="projects__arrow" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70"
+              fill="none">
+              <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
+              <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <img class="projects__image3" src="/assests/home/project3.jpg" alt="kitchen">
+          <div class="projects__wrapper">
+            <div class="projects__text">
+              <h3 class="projects__type">Modern Kitchen</h3>
+              <span class="projects__category">Decor / Artchitecture</span>
+            </div>
+            <svg class="projects__arrow" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70"
+              fill="none">
+              <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
+              <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <img class="projects__image4" src="/assests/home/project4.jpg" alt="kitchen">
+          <div class="projects__wrapper">
+            <div class="projects__text">
+              <h3 class="projects__type">Modern Kitchen</h3>
+              <span class="projects__category">Decor / Artchitecture</span>
+            </div>
+            <svg class="projects__arrow" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70"
+              fill="none">
+              <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
+              <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+        </div>
+
+      </div>
+    </section>
   </div>
-  <section class="projects">
-    <div class="projects__heading">
-      <h2 class="projects__title">Follow Our Projects</h2>
-      <p class="projects__desc">It is a long established fact that a reader will be distracted by the of readable
-        content of page lookings at its
-        layouts points.</p>
-    </div>
-    <div class="projects__container">
-      <div class="projects__project">
-        <h3 class="projects__type">Modern Kitchen</h3>
-        <span class="projects__category">Decor / Artchitecture</span>
-      </div>
-      <div class="projects__project">
-        <h3 class="projects__type">Modern Kitchen</h3>
-        <span class="projects__category">Decor / Artchitecture</span>
-      </div>
-      <div class="projects__project">
-        <h3 class="projects__type">Modern Kicthen</h3>
-        <span class="projects__category">Decor / Artchitecture</span>
-      </div>
-      <div class="projects__project">
-        <h3 class="projects__type">Modern Kicthen</h3>
-        <span class="projects__category">Decor / Artchitecture</span>
-      </div>
-    </div>
-  </section>
+
   <div class="trust">
     <div class="trust__info">
       <span class="trust__title">12</span>
@@ -78,58 +141,97 @@
       <p class="trust__desc">Happy Customers</p>
     </div>
   </div>
-  <section class="news">
-    <div class="news__container">
-      <h2 class="news__heading">Articles & News</h2>
-      <p class="news__desc">It is a long established fact that a reader will be distracted by the of readable content of
-        a
-        page when lookings at its
-        layouts the points of using.</p>
-    </div>
-    <div class="news__articles">
-      <article class="news__article">
-        <div class="news__article-cover"></div>
-        <div class="news__tag">
-          <span class="news__tag-name">Kitchen Design</span>
-        </div>
-        <h2 class="news__article-title">
-          Let’s Get Solution For Building Construction Work
-        </h2>
-        <div class="news__bottom">
-          <span class="news__date">26 December,2022</span>
-          <a href="" class="news__arrow"></a>
-        </div>
-      </article>
-      <article class="news__article">
-        <div class="news__article-cover"></div>
-        <div class="news__tag">
-          <span class="news__tag-name">Live Design</span>
-        </div>
-        <h2 class="news__article-title">Low Cost Latest Invented Interior Designing
-          Ideas.
-        </h2>
-        <div class="news__bottom">
-          <span class="news__date">22 December,2022</span>
-          <a href="" class="news__arrow"></a>
-        </div>
-      </article>
-      <article class="news__article">
-        <div class="news__article-cover"></div>
-        <div class="news__tag">
-          <span class="news__tag-name">Interior Design</span>
-        </div>
-        <h2 class="news__article-title">Best For Any Office & Business Interior
-          Solution
-        </h2>
-        <div class="news__bottom">
-          <span class="news__date">25 December,2022</span>
-          <a href="" class="news__arrow"></a>
-        </div>
-      </article>
-    </div>
-  </section>
-  <footer class="footer">
+  <div class="body__container-bottom">
+    <section class="news">
+      <div class="news__container">
+        <h2 class="news__heading">Articles & News</h2>
+        <p class="news__desc">It is a long established fact that a reader will be distracted by the of readable content
+          of
+          a
+          page when lookings at its
+          layouts the points of using.</p>
+      </div>
+      <div class="news__articles">
+        <div class="news__article">
 
-  </footer>
+          <img class="news__cover" src="/assests/home/article1.jpg" alt="project">
+
+          <div class="news__tag">
+            <span class="news__tag-name">Kitchen Design</span>
+          </div>
+          <h2 class="news__article-title">
+            Let’s Get Solution For Building Construction Work
+          </h2>
+          <div class="news__bottom">
+            <span class="news__date">26 December,2022</span>
+            <a href="" class="news__arrow"></a>
+          </div>
+        </div>
+        <div class="news__article">
+          <img class="news__cover" src="/assests/home/article2.jpg" alt="project">
+          <div class="news__tag">
+            <span class="news__tag-name">Live Design</span>
+          </div>
+          <h2 class="news__article-title">Low Cost Latest Invented Interior Designing
+            Ideas.
+          </h2>
+          <div class="news__bottom">
+            <span class="news__date">22 December,2022</span>
+            <a href="" class="news__arrow"></a>
+          </div>
+        </div>
+        <div class="news__article">
+          <img class="news__cover" src="/assests/home/article3.jpg" alt="project">
+          <div class="news__tag">
+            <span class="news__tag-name">Interior Design</span>
+          </div>
+          <h2 class="news__article-title">Best For Any Office & Business Interior
+            Solution
+          </h2>
+          <div class="news__bottom">
+            <span class="news__date">25 December,2022</span>
+            <a href="" class="news__arrow"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__social">
+        <div class="footer__logo">
+
+
+        </div>
+        <p class="footer__desc">
+          It is a long established fact that a reader will be distracted lookings.
+        </p>
+        <div class="footer__icons">
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M0 34.0003H13.4588V24.499C13.4588 22.4853 15.0898 20.8543 17.1035 20.8543C19.1172 20.8543 20.7482 22.4853 20.7482 24.499V34.0003H33.9975V0C15.2211 0 0 15.2211 0 34.0003Z"
+              fill="#CDA274" />
+          </svg>
+          <span class="footer__name">Interio</span>
+        </div>
+      </div>
+      <div class="footer__sitemap">
+        <h2 class="footer__sitemap-heading">Pages</h2>
+        <ul class="footer__links">
+          <li class="footer__link">Home</li>
+          <li class="footer__link">Project</li>
+          <li class="footer__link">Blog</li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h2 class="footer__contact-heading">Contact</h2>
+        <ul class="footer__contacts">
+          <li class="footer__contact">55 East Birchwood Ave. Brooklyn, New York 11201</li>
+          <li class="footer__contact">contact@interno.com</li>
+          <li class="footer__contact">(123) 456 - 7890</li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
 </body>
+
 </html>
